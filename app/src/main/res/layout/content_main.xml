@@ -16,5 +16,59 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/textView2"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="My First App"
+        android:id="@+id/textView"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00FF00"
+        android:textSize="50dp" />
+
+    <SeekBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarworks"
+        android:max="5"
+        android:layout_above="@+id/ratingBar"
+        android:layout_alignLeft="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar3"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Small-Large"
+        android:id="@+id/textViewGrow"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp" />
+
 </RelativeLayout>
+<SeekBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/seekBar"></SeekBar>
